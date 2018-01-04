@@ -12,6 +12,8 @@ $pdjsConfig = "
 var WATERMARK_ALPHA = '".$waterMark['alpha']."';
 var WATERMARK_TEXT = '".$waterMark['text']."';
 var WATERMARK_TEXT_COLOR = '".$waterMark['color']."';
+var WATERMARK_X = '".$waterMark['x']."';
+var WATERMARK_Y = '".$waterMark['y']."';
 ";
 $this->registerJs($pdjsConfig,View::POS_HEAD);
 $this->registerJs($js);
